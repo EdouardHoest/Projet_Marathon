@@ -1,0 +1,36 @@
+/************ PAGE DETAIL SERIE RESPONSIVE ************/
+
+
+@media screen and (max-width:500px) {
+    html {
+        margin: 0;
+        background-image: url(images/fond1.jpg);
+        background-size: 100%;
+        background-repeat: repeat;
+        scroll-behavior: smooth;
+       }
+    #episodes {
+        flex-direction: column;
+    }
+    #les5episodes > div:hover {
+        width: 100%;!important
+        padding-bottom: 50px;
+    }
+    #texteaccueilseries > p {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 75px;
+        padding-bottom: 170px;
+    }
+    #textedetail {
+        background-image: url(images/fond6.jpg);
+        background-repeat: repeat;
+        margin-top: 0px;
+        background-size: 100%;
+}
+    #soulignement {
+        width: 260px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+} 
+}

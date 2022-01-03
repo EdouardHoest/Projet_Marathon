@@ -1,0 +1,259 @@
+* {
+    font-family: Futura;
+
+}
+@font-face {
+    font-family: 'Futura';
+    src: url('public/fonts/futura/Futura Heavy font.tff') format('truetype');
+    font-weight: normal;
+    font-style : normal;
+}
+
+html {
+    margin:0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+/*
+#backgroundheader {
+    background-color: grey;
+    opacity: 50%;
+    height: 120px;
+}
+*/
+
+/**************** PAGE ACCUEIL ****************/
+
+/************ PARTIE 1 ************/
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
+#header > img {
+    margin-left: 25px;
+    margin-top: -5px;
+    width: 150px;
+}
+
+#header > a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#header > a:hover {
+    color: #D66251;
+}
+
+#recherche {
+    width: 40px;
+}
+
+#searchbar {
+    margin-left: 30px;
+    top : 60px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+
+#search > form {
+    vertical-align: middle;
+    display: flex;
+}
+
+#searchbar::placeholder {
+  color: grey;
+    padding-left: 20px;
+}
+
+#texteaccueil > p {
+    padding-top: 175px;
+    font-size: 70px;
+    padding-left: 170px;
+    padding-bottom: 170px;
+}
+
+#fleche {
+    text-align: center;
+}
+
+#fleche > a > img {
+    width: 70px;
+}
+
+/**************** PARTIE 2 ****************/
+
+#textepage2 {
+    height: 100%;
+    background-image: url(public/img/images/fond2.jpg);
+}
+
+#soulignement {
+    width: 700px;
+    border-bottom: 2px solid #D66251;
+    margin-top: -185px;
+    padding-left: 15%;
+}
+
+#les5images {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+#les5images > a > img {
+    transition: transform .1s;
+    width: 200px;
+    cursor: pointer;
+}
+
+#les5images > a > img:hover {
+    transform: scale(1.2);
+    background-color: black;
+    opacity: 80%;
+}
+
+
+/************ PAGE SÉRIES ************/
+
+
+#headerseries {
+     margin-bottom: -75px;
+}   
+
+#texteaccueilseries > p {
+    padding-top: 100px;
+    font-size: 70px;
+    padding-left: 170px;
+    padding-bottom: 170px;
+}
+
+#texteseries {
+    background-image: url(public/img/images/fond2.jpg);
+    background-repeat: repeat;
+    margin-top: -60px;
+}
+
+#lesseries {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    transition: transform .1s;
+}
+
+#toutesseries {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#uneserie {
+    transition: transform .1s;
+    width: 200px;
+    cursor: pointer;
+}
+
+#uneserie:hover {
+    color: black;
+    transform: scale(1.2);
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to right bottom, rgb(214,98,81), rgb(235,158,134));
+    transition: 0.2s;
+    z-index: 10;
+}
+
+#uneserie {
+    background-color: white;
+    height: 430px;
+    width: auto;
+}
+
+/**************** PAGE PROFIL ****************/
+
+#texteaccueilprofil > p {
+    padding-top: 100px;
+    font-size: 70px;
+    padding-left: 170px;
+    padding-bottom: 170px;
+}
+
+#infos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    text-align: left;
+}
+
+/**************** PAGE CONNEXION ****************/
+
+.error-monkey{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.searchbar {
+    top : 60px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding:10px;
+}
+
+#main404 {
+    color: black;
+    background-image: url("public/img/images/connexionimg.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#connexion > input {
+    margin-top: 30px;
+}
+
+#form1 {
+    padding-top: 30px;
+}
+
+#connexion {
+    margin-top: -30px;
+}
+
+#submitconnexion {
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#submitconnexion:hover {
+    background-color: #D66251;
+    border: 2px solid #D66251;
+    color: white;
+}
+
+/**************** FOOTER GÉNÉRAL ****************/
+
+#footer {
+    background-color: white;
+    height: 50%;
+}

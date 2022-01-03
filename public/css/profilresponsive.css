@@ -1,0 +1,52 @@
+/************ PAGE SERIES RESPONSIVE ************/
+
+
+@media screen and (max-width:500px) {
+    .html {
+        width: auto;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #header {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+    }
+    #texteaccueil > p {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 75px;
+        padding-bottom: 170px;
+    }
+    #soulignement {
+        width: 260px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+} 
+    #texteaccueilprofil > p {
+        padding-top: 25px;
+        font-size: 40px;
+        padding-left: 74px;
+        padding-bottom: 178px;
+    }
+    #soulignement {
+        width: 215px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+} 
+    #infos {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    #infos > h1 {
+    padding-top: 5px;
+}
+    #serieslike {
+        display: block;
+    }
+}

@@ -1,0 +1,89 @@
+/************ PAGE ACCUEIL RESPONSIVE ************/
+
+
+@media screen and (max-width:500px) {
+    .html {
+        width: auto;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #header {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+    }
+
+    #texteseries {
+        width: auto;
+        height: auto;
+        background-repeat: repeat;
+    }
+
+    #texteseries > p {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 75px;
+        padding-bottom: 170px;
+    }
+
+    #les5images {
+        display: block;
+    }
+
+    #soulignement {
+        width: 260px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+    }
+
+    #header {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+    }
+
+    #textepage1 {
+        width: auto;
+        height: auto;
+        background-repeat: repeat;
+    }
+
+    #texteaccueil > p {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 75px;
+        padding-bottom: 170px;
+    }
+
+    #fleche {
+        text-align: center;
+        margin-top: -141px;
+    }
+
+    #fleche > a > img {
+        width: 70px;
+        margin-top: -10%;
+    }
+
+    #textepage2 {
+        height: auto;
+        background-image: url(public/img/images/fond2.jpg);
+        background-repeat: repeat;
+    }
+
+    #les5images {
+        display: block;
+    }
+
+    #soulignement {
+        width: 260px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+    }
+}

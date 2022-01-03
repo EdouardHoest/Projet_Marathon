@@ -1,0 +1,96 @@
+/************ PAGE SERIES RESPONSIVE ************/
+
+
+@media screen and (max-width:500px) {
+    .html {
+        width: auto;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #header {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+    }
+
+    #textepage1 {
+        width: auto;
+        height: auto;
+        background-repeat: repeat;
+    }
+
+    #texteaccueil > p {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 75px;
+        padding-bottom: 170px;
+    }
+
+    #soulignement {
+        width: 260px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+    }
+
+    #textepage1 {
+        width: auto;
+        height: auto;
+        background-repeat: repeat;
+    }
+
+    #texteaccueilseries > p {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 75px;
+        padding-bottom: 170px;
+    }
+
+    #fleche {
+        text-align: center;
+        margin-top: -141px;
+    }
+
+    #fleche > a > img {
+        width: 70px;
+        margin-top: -10%;
+    }
+
+    #textepage2 {
+        height: auto;
+        background-image: url(public/img/images/fond2.jpg);
+        background-repeat: repeat;
+    }
+
+    #lesseries {
+        flex-direction: column;
+    }
+
+    #uneserie {
+        background-color: inherit;
+        height: 100%;
+        width: 100%;
+    }
+
+    #soulignement {
+        width: 260px;
+        border-bottom: 2px solid #D66251;
+        margin-top: -185px;
+    }
+
+    #soulignement1 {
+        border-bottom: 2px solid #D66251;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    #texteseries {
+        background-image: url(public/img/images/fond2.jpg);
+        background-repeat: repeat;
+        margin-top: -20px;
+    }
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Futura';
+}
+@font-face {
+    font-family: 'Futura';
+    src:url('/fonts/futura/Futura Heavy font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer{
+    position: absolute;
+    bottom:0;
+    background-color: black;
+    width: 100%;
+    color:white;
+}
+
+#footerall > a{
+    color:white;
+    text-decoration: none;
+}
+
+
+#footerall > a:hover{
+    color:#eb9e86;
+}
+
+#footer-reseaux > a:hover{
+    color:#eb9e86;
+}
+#footer-reseaux > a{
+    padding:20px;
+    color:white;
+}
+
+#footerall{
+    padding:40px;
+    display: flex;
+    color:white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}

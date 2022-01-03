@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Futura';
+    src:url('/fonts/futura/Futura Heavy font.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+body{
+    font-family: 'Futura';
+}
+
+#main404{
+    position : relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.error-monkey{
+    position: absolute;
+    top : 45%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+
+}
+
+div > #erreur > h1:nth-child(1){
+    font-size: 8rem;
+}
+
+div > #erreur > h1:nth-child(2){
+    font-size: 3rem;
+}
+
+h1{
+    margin-bottom: 18px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:gray;
+}
+#main404 {
+    color: black;
+    background-image: url("../404img.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
